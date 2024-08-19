@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  background-image: url(background-1.jpg);
+  width: 100%;
+  height: 760px;
+}
+.search {
+  margin: 0 0 75px;
+  margin-left: 1250px;
+  display: block;
+  padding-top: 20px;
+}
+.weather-no-query {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: darkblue;
+  margin-top: 200px;
+}
+.search-box {
+  padding: 1%;
+  border-radius: 5px;
+}
+.box {
+  color: darkblue;
+  padding: 5px;
+  font-size: 25px;
+}
+.temp {
+  font-size: 70px;
+  margin-left: 140px;
+}
+.weather-desc {
+  margin-left: 140px;
+}
+.location-name {
+  margin-left: 140px;
+}
+.weather-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: darkblue;
+  margin-top: 100px;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 15%;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  border-radius: 20px;
+  box-shadow: 3px 5px gray;
+}
+.humidity {
+  background-color: black;
+  color: white;
+}
+.pressure {
+  background-color: #cbe16a;
+  color: black;
+}
+.windspeed {
+  background-color: white;
+  color: black;
+}
